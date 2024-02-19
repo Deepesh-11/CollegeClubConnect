@@ -50,24 +50,7 @@
     height: 100%;
     padding-left: 10px;
 }
-/* .new-thread-btn{
-    height: 60px;
-    padding: 0px 20px;
-    display: flex;
-    align-items: center;
-    margin: 20px 20px;
-    font-size: large;
-    color: #6275f3;
-    border: 1px solid #6275f3;
-    border-radius: 10px;
-    
-} */
-/* input[type=submit]{
-    border: none;
-    background-color: #fff;
-    font-size: 14px;
-    cursor: pointer;
-} */
+
 
 .logoutbtn{
     background-color: #7f6cda;
@@ -193,23 +176,51 @@ h2{
 
 
 /* css for join buttons */
-.join-button {
+.btn {
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 15px 20px;
-    font-size: 20px;
     background-color: #f3f5f7;
-    /* background-color: #fff; */
-    color: #6275f3;
     border: 1px solid #7f6cda;
     border-radius: 10px;
 }
 
-.join-button:hover{
+.btn:hover{
     cursor: pointer;
     background: #7f6cda;
     color: #fff;
     transition: .3s ease-in;
 }
 
+.club-join{
+    display: flex;
+    flex-direction: column;
+}
 
+.join-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control{
+    display: flex;
+    padding: 10px 10px;
+    margin: 20px 10px 20px 0px;
+    font-size: 20px;
+    background-color: #f3f5f7;
+    /* background-color: #fff; */
+    color: #000;
+    border: 1px solid #aeabab;
+    border-radius: 10px;
+}
+
+label{
+    display: flex;
+    padding: 10px 10px;
+    font-size: 22px;
+    align-items: center;
+    justify-content: center;
+}
 
