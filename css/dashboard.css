@@ -218,9 +218,14 @@ h2{
 
 label{
     display: flex;
-    padding: 10px 10px;
+    padding: 10px 20px 10px 10px;
     font-size: 22px;
     align-items: center;
     justify-content: center;
+}
+
+input, select{
+    width: 100%;
+    border-radius: 5px;
 }
 
